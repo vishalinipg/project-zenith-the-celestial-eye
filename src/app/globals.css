@@ -1,0 +1,40 @@
+@import "leaflet/dist/leaflet.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  background-color: #05070b;
+  color: #e8edf5;
+  overscroll-behavior: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Leaflet's default container z-index fights with overlay panels otherwise. */
+.leaflet-container {
+  background: #05070b !important;
+  font-family: inherit;
+}
+
+.leaflet-control-attribution {
+  background: rgba(9, 17, 31, 0.6) !important;
+  color: rgba(232, 237, 245, 0.4) !important;
+  font-size: 9px !important;
+}
+
+.leaflet-control-attribution a {
+  color: rgba(120, 200, 255, 0.6) !important;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(232, 237, 245, 0.15);
+}
