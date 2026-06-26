@@ -914,17 +914,13 @@ npm run test:e2e
 
 ## Hosted Application
 
-```
 [https://your-project-link.vercel.app](https://project-zenith-the-celestial-eye.vercel.app/)
-```
 
 ---
 
 # 📂 GitHub Repository
 
-```
-https://github.com/vishalinipg/project-zenith-the-celestial-eye
-```
+[https://github.com/vishalinipg/project-zenith-the-celestial-eye](https://github.com/vishalinipg/project-zenith-the-celestial-eye)
 
 ---
 
@@ -1061,16 +1057,6 @@ These computations ensure that displayed information accurately reflects the sel
 | Mobile | ✅ |
 
 The application is fully responsive and optimized for multiple screen sizes using modern CSS layout techniques.
-
----
-
-## Production Deployment
-
-```
-screenshots/deployment.png
-```
-
-> Screenshot of deployed application.
 
 ---
 
