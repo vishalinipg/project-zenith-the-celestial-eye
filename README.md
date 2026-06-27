@@ -21,6 +21,7 @@ An immersive web application that enables users to explore the sky above any loc
 
 - **Website Live URL:** https://project-zenith-the-celestial-eye.vercel.app
 - **GitHub Repository:** https://github.com/vishalinipg/project-zenith-the-celestial-eye
+- **Demo Video:** https://youtu.be/I70j10LaGrI?si=LC2pi6a6UhA2le0G
 
 ---
 
