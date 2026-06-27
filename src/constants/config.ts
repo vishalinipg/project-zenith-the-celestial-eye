@@ -13,8 +13,8 @@ export const UPDATE_INTERVALS = {
 } as const;
 
 export const API_ENDPOINTS = {
-  /** Open Notify: current ISS position. No key required. */
-  issPosition: "http://api.open-notify.org/iss-now.json",
+  /** Open Notify: current ISS position. No key required. Proxying via Next.js to bypass mixed-content checks on HTTPS deployment. */
+  issPosition: "/api/iss-position",
   /**
    * CelesTrak: the curated "visual" group — roughly the 100-180 brightest
    * satellites, which is exactly the set relevant to "what can I currently

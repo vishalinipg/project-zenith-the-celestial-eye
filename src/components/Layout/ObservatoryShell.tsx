@@ -338,7 +338,7 @@ export default function ObservatoryShell() {
 
               {/* RIGHT-MIDDLE: TLE count + satellite filter + passes */}
               <div className="absolute right-4 top-[40%] flex flex-col items-end gap-2">
-                <TleCountWidget count={tleCount} />
+                <TleCountWidget count={filteredSatellites.length} />
                 <SatelliteFilter
                   isOpen={activeRightPanel === "satfilter"}
                   onOpenChange={(v) => setActiveRightPanel(v ? "satfilter" : null)}
@@ -476,7 +476,7 @@ export default function ObservatoryShell() {
 
                       {/* Satellites Visible */}
                       <div className={activeFeature === "satellites-visible" ? "w-full flex justify-center" : "hidden"}>
-                        <TleCountWidget count={tleCount} />
+                        <TleCountWidget count={filteredSatellites.length} />
                       </div>
 
                       {/* Satellite Filter */}
